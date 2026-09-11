@@ -1,0 +1,522 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wave Water | Pure Water. Pure Life.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Top bar removed -->
+
+        
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+
+        <div class="logo">
+            <img src="logo.jpeg" alt="Wave Water">
+            Wave
+            <span>Water</span>
+            
+        </div>
+
+        <div class="nav-links" id="site-navigation">
+
+            <a href="#" class="active">Home</a>
+
+            <a href="#products">Our Products</a>
+
+            <a href="#why">Why Wave Water</a>
+
+            <a href="#about">About Us</a>
+
+            <a href="#bulk">Bulk Orders</a>
+
+            <a href="#contact">Contact Us</a>
+
+        </div>
+
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <button class="order-btn" onclick="openOrderForm()">
+    🛒 Order Now
+</button>
+
+    </nav>
+
+
+    <!-- HERO -->
+    <header class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <div class="purity-line">
+                <span>100% PURE</span>
+                <b>|</b>
+                <span>100% SAFE</span>
+                <b>|</b>
+                <span>100% REFRESHING</span>
+            </div>
+
+            <h1>
+                Pure Water.<br>
+                Pure Life.
+            </h1>
+
+            <p class="hero-description">
+                Refresh your world with Wave Water –
+                cleaner, safer, healthier.
+            </p>
+
+            <div class="hero-buttons">
+
+                <button class="hero-btn buy-btn" onclick="openOrderForm()">
+    🛒 Order Now
+</button>
+
+                <button class="hero-btn distributor-btn">
+                    👥 Become a Distributor
+                </button>
+
+            </div>
+
+
+            <!-- BENEFITS -->
+            <div class="benefits">
+
+                <div class="benefit">
+                    <div class="benefit-icon">💧</div>
+                    <strong>
+                        Purified<br>
+                        Water
+                    </strong>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-icon">🛡️</div>
+                    <strong>
+                        Quality<br>
+                        Tested
+                    </strong>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-icon">🍃</div>
+                    <strong>
+                        Hygienic<br>
+                        Packaging
+                    </strong>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-icon">🚚</div>
+                    <strong>
+                        Fast<br>
+                        Delivery
+                    </strong>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- TRUST BAR -->
+        <div class="trust-bar">
+
+            <div class="trust-item">
+
+                <div class="trust-icon">🍃</div>
+
+                <strong>
+                    Trusted by<br>
+                    Families & Businesses
+                </strong>
+
+            </div>
+
+            <div class="trust-item">
+
+                <div class="trust-icon">☆</div>
+
+                <strong>
+                    FSSAI & BIS<br>
+                    Certified
+                </strong>
+
+            </div>
+
+            <div class="trust-item">
+
+                <div class="trust-icon">👥</div>
+
+                <strong>
+                    Available in Multiple<br>
+                    Sizes
+                </strong>
+
+            </div>
+
+            <div class="trust-item">
+
+                <div class="trust-icon">📍</div>
+
+                <strong>
+                    Pan India<br>
+                    Delivery
+                </strong>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- PRODUCTS -->
+    <section id="products">
+
+        <h2 class="section-title">
+            Our Products
+        </h2>
+
+        <div class="products">
+
+            <div class="product-card product-250">
+
+                <div class="bottle">💧</div>
+
+                <h3>250 ML</h3>
+
+                <p>Perfect for events & travel</p>
+
+                <button class="small-order" onclick="openOrderForm('500 ML')">
+    Order Now
+</button>
+
+            </div>
+
+
+            <div class="product-card product-500">
+
+                <div class="bottle">💧</div>
+
+                <h3>500 ML</h3>
+
+                <p>Everyday refreshing water</p>
+
+                <button class="small-order" onclick="openOrderForm('500 ML')">
+    Order Now
+</button>
+
+            </div>
+
+
+            <div class="product-card product-1l">
+
+                <div class="bottle">💧</div>
+
+                <h3>1 L</h3>
+
+                <p>Perfect for families</p>
+
+                <button class="small-order">
+                    Order Now
+                </button>
+
+            </div>
+
+
+            <div class="product-card product-2l">
+
+                <div class="bottle">💧</div>
+
+                <h3>2 L</h3>
+
+                <p>For home & gatherings</p>
+
+                <button class="small-order" onclick="openOrderForm('500 ML')">
+    Order Now
+</button>
+
+            </div>
+
+
+            <div class="product-card product-20l">
+
+                <div class="bottle">💧</div>
+
+                <h3>20 L</h3>
+
+                <p>Home & office water</p>
+
+                <button class="small-order" onclick="openOrderForm('500 ML')">
+    Order Now
+</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- WHY WAVE WATER -->
+    <section class="why-section" id="why">
+
+        <h2 class="section-title">
+            Why Wave Water?
+        </h2>
+
+        <div class="why-grid">
+
+            <div class="why-card">
+
+                <div class="icon">💧</div>
+
+                <h3>Pure Water</h3>
+
+                <p>
+                    Carefully purified drinking water
+                    for everyday refreshment.
+                </p>
+
+            </div>
+
+
+            <div class="why-card">
+
+                <div class="icon">🛡️</div>
+
+                <h3>Quality Tested</h3>
+
+                <p>
+                    Quality-focused production and
+                    hygienic processing.
+                </p>
+
+            </div>
+
+
+            <div class="why-card">
+
+                <div class="icon">🍃</div>
+
+                <h3>Hygienic</h3>
+
+                <p>
+                    Clean and secure packaging
+                    from production to delivery.
+                </p>
+
+            </div>
+
+
+            <div class="why-card">
+
+                <div class="icon">🚚</div>
+
+                <h3>Fast Delivery</h3>
+
+                <p>
+                    Reliable delivery for homes,
+                    offices and businesses.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- BULK ORDERS -->
+    <section class="bulk" id="bulk">
+
+        <h2>
+            Need Water in Bulk?
+        </h2>
+
+        <p>
+            Perfect for offices, hotels, restaurants,
+            weddings and events.
+        </p>
+
+        <button class="bulk-btn" type="button" onclick="openBulkQuoteForm()">
+            Get Bulk Quote
+        </button>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about">
+
+        <h2 class="section-title">
+            About Wave Water
+        </h2>
+
+        <p class="about-text">
+            Wave Water is committed to providing
+            clean, refreshing and quality-focused
+            packaged drinking water for families,
+            businesses and communities.
+        </p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer id="contact">
+
+        <div class="footer-grid">
+
+            <div>
+
+                <h3>Wave Water</h3>
+
+                <p>
+                    Pure Water. Pure Life.
+                </p>
+
+                <p>
+                    Good Water Brighter Tomorrow.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <a href="#">Home</a>
+                <a href="#products">Products</a>
+                <a href="#why">Why Wave Water</a>
+                <a href="#about">About Us</a>
+
+            </div>
+
+
+            <div>
+
+                <h3>Business</h3>
+
+                <a href="#bulk">Bulk Orders</a>
+                <a href="#">Distributor</a>
+                <a href="#">Corporate Orders</a>
+
+            </div>
+
+
+            <div class="contact-column">
+                
+                    <h3>Contact</h3>
+                    <div class="contact-details">
+                        <a class="contact-item" href="tel:+918083198071">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .8 2.9a2 2 0 0 1-.4 2.1L8.2 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.4 1.9.7 2.9.8a2 2 0 0 1 1.5 1.8Z" /></svg>
+                            <span>+91 80831 98071</span>
+                        </a>
+                        <span class="contact-item">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z" /><circle cx="12" cy="10" r="2.5" /></svg>
+                            <span>Behind the Electric Office, Barbatta<br>Sonpur Saran, 841101<br>Bihar, India</span>
+                        </span>
+                    </div>
+                    <p>91+ 8083198071</p>
+                    <p>📍Behind the Electric Office,
+                    Barbatta</p>
+                    <p>Sonpur Saran , 841101</p>
+                    <p>Bihar , India</p>
+                
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+            © 2026 Wave Water. All Rights Reserved.
+        </div>
+
+    </footer>
+
+    <!-- ORDER FORM MODAL -->
+    <div class="order-modal" id="orderModal" aria-hidden="true">
+        <div class="order-dialog" role="dialog" aria-modal="true" aria-labelledby="orderTitle">
+            <button class="modal-close" type="button" aria-label="Close order form" onclick="closeOrderForm()">&times;</button>
+            <h2 id="orderTitle">Place Your Order</h2>
+            <p>Share your details.</p>
+
+            <form id="orderForm">
+                <label for="customerName">Full name</label>
+                <input id="customerName" type="text" autocomplete="name" required>
+
+                <label for="customerPhone">Mobile number</label>
+                <input id="customerPhone" type="tel" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" placeholder="10-digit mobile number" required>
+
+                <label for="product">Bottle size</label>
+                <select id="product" required>
+                    <option value="250 ML">250 ML</option>
+                    <option value="500 ML">500 ML</option>
+                    <option value="1 L">1 L</option>
+                    <option value="2 L">2 L</option>
+                    <option value="20 L">20 L</option>
+                </select>
+
+                <label for="quantity">Quantity</label>
+                <input id="quantity" type="number" min="1" value="1" required>
+
+                <label for="address">Delivery address</label>
+                <textarea id="address" rows="3" required></textarea>
+
+                <button class="submit-order" type="submit">Place Order</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- BULK QUOTE MODAL -->
+    <div class="order-modal" id="bulkQuoteModal" aria-hidden="true">
+        <div class="order-dialog bulk-quote-dialog" role="dialog" aria-modal="true" aria-labelledby="bulkQuoteTitle">
+            <button class="modal-close" type="button" aria-label="Close quote form" onclick="closeBulkQuoteForm()">&times;</button>
+            <h2 id="bulkQuoteTitle">Request a Bulk Quote</h2>
+            <p>Tell us what you need and our team will prepare a quote for you.</p>
+
+            <form id="bulkQuoteForm">
+                <label for="bulkName">Full name</label>
+                <input id="bulkName" type="text" autocomplete="name" required>
+
+                <label for="bulkPhone">Mobile number</label>
+                <input id="bulkPhone" type="tel" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" placeholder="10-digit mobile number" required>
+
+                <label for="businessType">Business or event type</label>
+                <input id="businessType" type="text" placeholder="Office, hotel, wedding, etc." required>
+
+                <label for="bulkRequirement">Your requirement</label>
+                <textarea id="bulkRequirement" rows="3" placeholder="Bottle size, quantity and delivery location" required></textarea>
+
+                <button class="submit-order" type="submit">Request Quote</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
